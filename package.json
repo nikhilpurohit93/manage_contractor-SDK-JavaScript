@@ -1,0 +1,21 @@
+{
+  "name": "manage_contractors_ap_is",
+  "version": "0.1",
+  "description": "This_API_supports_all_services_required_to_manage_Employees_on_HR_system",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
